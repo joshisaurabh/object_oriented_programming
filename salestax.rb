@@ -104,7 +104,7 @@ print salesTaxexemptDom2.name + " : "
 puts salesTaxexemptDom2.price_with_tax.round(2)
 
 print "Sales Taxes: " 
-puts (salesTaxexemptDom1.sales_tax+salesTaxAppliedDom1.sales_tax+salesTaxexemptDom2.sales_tax).round(2)
+puts (salesTaxexemptDom1.sales_tax.round(2)+salesTaxAppliedDom1.sales_tax.round(2)+salesTaxexemptDom2.sales_tax.round(2)).round(2)
 print "Total: " 
 puts (salesTaxexemptDom1.total+salesTaxAppliedDom1.total+salesTaxexemptDom2.total).round(2)
 
